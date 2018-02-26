@@ -17,6 +17,14 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "express": "^4.15.4"
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "create-react-class": "^15.6.3",
+    "express": "^4.16.2",
+    "express-router": "0.0.1",
+    "mongoose": "^5.0.6",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "react-router-dom": "^4.2.2"
   }
 }

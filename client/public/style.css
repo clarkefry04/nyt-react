@@ -1,14 +1,12 @@
-h1{
-    text-align: center;
-    font-family: 'Playfair Display SC', serif;
-}
-h4{
-    text-align: center;
+body{
     font-family: 'Playfair Display SC', serif;
 }
 
-body{
-    font-family: 'Playfair Display SC', serif;
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
 }
 
 button{

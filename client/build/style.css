@@ -1,3 +1,17 @@
+body{
+    font-family: 'Playfair Display SC', serif;
+}
+
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+button{
+    margin: 20px
+}
 .form-group{
 width: 60%;
 margin: 0 auto;
@@ -11,3 +25,8 @@ margin: 0 auto;
 #subhead {
     text-align: center;
 }
+
+.nav-item{
+    font-family: 'Playfair Display SC', serif;
+}
+

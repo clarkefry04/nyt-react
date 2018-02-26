@@ -69,7 +69,7 @@ export default class SearchForm extends React.Component {
     this.props.startLoading();
 
     const params = {
-      'api-key': '05f7127720fe4860ae0de8bea8301d88',
+      'api-key': '6210d32b86a44b439f84ae9be6fc555c',
       'q': encodeURIComponent(this.state.topic),
       'fl': 'web_url,pub_date,headline',
       'page': 0

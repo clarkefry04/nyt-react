@@ -13,8 +13,8 @@ export default () => (
   <div className="row">
     <div className="col-sm">
       <div className="jumbotron">
-        <h1>NYT React</h1>
-        <h4>It does stuff!</h4>
+        <h1>New York Times Article Scrubber</h1>
+        <h4>Search for and annotate articles of interest!</h4>
       </div>
     </div>
   </div>

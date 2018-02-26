@@ -1,19 +1,13 @@
-// Node Dependencies
-const axios - require ('axios');
+const axios = require ('axios');
 const router = require('express').Router();
 
 
-// Import the Article model
 const Article = require('../models/article.js');
 
-
-
-// Main GET - This will display the ReactJS application.
 router.get("/", function(req, res) {
   res.sendFile(process.cwd() + "/public/index.html");
 });
 
-// API GET - your components will use this to query MongoDB for all saved articles.
 router.get("/api/saved", function(req, res) {
   
   // Query Mongo for the Articles
